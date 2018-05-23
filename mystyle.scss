@@ -1,0 +1,24 @@
+	
+
+
+.cardCont, img
+{
+  width:250px;
+  height:250px;
+  float:left;
+  margin-right:10px;
+  position:relative;
+  /*border:solid 2px #fff;*/
+}
+
+
+.cardFront, .cardBack, 
+{
+  position:absolute; //superposition
+  width:250px;
+  height:250px;
+  
+  backface-visibility: hidden;
+  
+
+}
